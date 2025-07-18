@@ -49,5 +49,6 @@ const playGame = function () {
     console.log("Player won the game");
   }
 };
+``;
 
 playGame();
