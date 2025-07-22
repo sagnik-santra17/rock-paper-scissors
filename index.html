@@ -3,14 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Rock-Paper-Scissors</title>
   </head>
   <body>
+    <div class="pick"><h1>Pick One</h1></div>
+    <div class="selections"></div>
+    <div class="results">
+      <div class="draw">It's a draw</div>
+      <div class="computerWins"><h3>Computer wins this round!</h3></div>
+      <div class="playerWins"><h3>Plsyer wins this round!</h3></div>
+      <div class="errorMsg">
+        <h3>Invalid input. Please choose rock, paper, or scissors.</h3>
+      </div>
+    </div>
+
+    <div class="scores"></div>
+    <div class="finalResultsComp"><h3>Computer won the game</h3></div>
+    <div class="finalResultsPlayer"><h3>Player won the game</h3></div>
+
     <div class="buttons">
       <button class="rock">Rock</button>
       <button class="paper">Paper</button>
-      <button class="scissor">Scissor</button>
+      <button class="scissors">Scissors</button>
+      <button class="reset">Reset game</button>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

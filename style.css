@@ -1,0 +1,8 @@
+.draw,
+.playerWins,
+.computerWins,
+.errorMsg,
+.finalResultsComp,
+.finalResultsPlayer {
+  display: none;
+}
